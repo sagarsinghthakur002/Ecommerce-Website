@@ -19,10 +19,9 @@ export default {
         sm: '2rem',
       },
 
-      },
-
+      }, 
     },
-
+   darkMode:"class",
   plugins: [],
 };
 
