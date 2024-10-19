@@ -5,7 +5,7 @@ import { BiSolidOffer } from "react-icons/bi";
 import { MdOutlinePayments } from "react-icons/md";
 function Banner() {
   return (
-    <div className='min-h-[550px] flex justify-center items-center py-12 sm:py-0'>
+    <div className='min-h-[550px] sm:h-[89vh] flex justify-center items-center py-12 sm:py-0'>
         <div className='container'>
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 items-center'> 
                 <div data-aos="zoom-in">
