@@ -55,7 +55,7 @@ const Dropdownlist = [
 function Navbar({ handleOrderPopup }) {
   return (
     <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
-      <div className='bg-primary/40 py-2'>
+      <div className='bg-primary/60 py-2'>
         <div className='flex justify-between items-center mx-4'>
 
           <div>
