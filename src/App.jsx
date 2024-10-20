@@ -4,7 +4,8 @@ import "aos/dist/aos.css";
 import Banner from './components/Banner';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-
+import Products from './components/Products';
+import TopProduct from './components/TopProduct';
 
 const App = () => {
 
@@ -29,8 +30,11 @@ const App = () => {
     <>
       <div className='bg-white dark:bg-gray-900 dark:text-white duration-200'>
         <Navbar handleOrderPopup={handleOrderPopup} />
-        <Hero/>
+        <Hero handleOrderPopup={handleOrderPopup}/>
+        <Products/>
+        <TopProduct/>
         <Banner />
+
       </div>
     </>
   );

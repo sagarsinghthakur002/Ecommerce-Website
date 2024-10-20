@@ -54,8 +54,8 @@ const Dropdownlist = [
 
 function Navbar({ handleOrderPopup }) {
   return (
-    <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
-      <div className='bg-primary/60 py-2'>
+    <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40 '>
+      <div className='bg-primary/60 py-2 '>
         <div className='flex justify-between items-center mx-4'>
 
           <div>
@@ -82,7 +82,7 @@ function Navbar({ handleOrderPopup }) {
         </div>
       </div>
 
-      <div data-aos='zoom-in' className='flex justify-center'>
+      <div data-aos='zoom-in' className='flex justify-center '>
         <ul className='sm:flex hidden items-center gap-4'>
           {Menu.map((data) => (
             <li key={data.id}>
