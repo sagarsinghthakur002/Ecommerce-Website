@@ -12,13 +12,13 @@ const productsData = [
     id: 2,
     url: "/src/assets/shirt/shirt2.png",
     title: "Casual",
-    description: "What is lorem ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ...",
+    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fugit molestias nostrum ab obcaecati quidem aut sint numquam perferendis aliquam praesentium velit expedita veniam architecto vitae cupiditate libero, distinctio eum?',
   },
   {
     id: 3,
     url: "/src/assets/shirt/shirt3.png",
     title: "Casual",
-    description: "What is lorem ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ...",
+    description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. In facilis deserunt velit quo ipsam ab praesentium, repellendus natus esse quasi quidem excepturi cupiditate harum sit vero nam voluptate temporibus incidunt.',
   },
 ];
 
