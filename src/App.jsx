@@ -19,8 +19,8 @@ const App = () => {
     AOS.init({
       duration: 100,
       easing: "ease-in-sine",
-      offset: 100,
-      delay: 100,
+      offset: 101,
+      delay: 101,
     });
   
     AOS.refresh();
