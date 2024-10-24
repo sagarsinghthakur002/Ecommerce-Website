@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import TopProduct from './components/TopProduct';
+import Footer from './components/Footer';
+import FInditem from './components/FInditem';
 
 const App = () => {
 
