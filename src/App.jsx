@@ -36,6 +36,7 @@ const App = () => {
         <Products/>
         <TopProduct/>
         <Banner />
+        <FInditem />  
 
       </div>
     </>
