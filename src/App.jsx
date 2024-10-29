@@ -8,6 +8,7 @@ import Products from './components/Products';
 import TopProduct from './components/TopProduct';
 import Footer from './components/Footer';
 import FInditem from './components/FInditem';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
 
@@ -37,6 +38,7 @@ const App = () => {
         <TopProduct/>
         <Banner />
         <FInditem />  
+        <Testimonials />
 
       </div>
     </>
