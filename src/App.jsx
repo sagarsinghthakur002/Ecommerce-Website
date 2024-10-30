@@ -8,7 +8,7 @@ import Products from './components/Products';
 import TopProduct from './components/TopProduct';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
-// import FindItem from './components/FindItem';
+import FindItem from './components/FindItem';
 
 const App = () => {
 
@@ -37,7 +37,7 @@ const App = () => {
         <Products/>
         <TopProduct/>
         <Banner />
-        {/* <FindItem />   */}
+        <FindItem />  
         <Testimonials />
         <Footer/>
 
