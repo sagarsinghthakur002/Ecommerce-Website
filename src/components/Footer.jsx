@@ -76,6 +76,10 @@ function Footer() {
                 <IoCall />
                 <p>+977 982340756</p>
               </div>
+              
+            </div>
+            <div className='flex justify-center items-center mt-10 '>
+              <p>Copyright &copy; Sagar Singh Thakur. All Rights Reserved.</p>
             </div>
           </div>
         </div>

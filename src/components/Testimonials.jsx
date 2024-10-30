@@ -5,27 +5,27 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "victor",
+    name: "Manish",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus porro, aliquam minima maxime quis dolorum. Dolor doloribus corrupti ad cupiditate architecto perspiciatis? Labore nemo aut et consequuntur, recusandae similique! Perspiciati",
-    img: "https://picsum.photos/id/237/200/300",
+    img: "/src/assets/review/img1.jpg",
   },
   {
     id: 2,
-    name: "sara",
+    name: "Samir",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus porro, aliquam minima maxime quis dolorum. Dolor doloribus corrupti ad cupiditate architecto perspiciatis? Labore nemo aut et consequuntur, recusandae similique! Perspiciati",
-    img: "https://picsum.photos/seed/picsum/200/300",
+    img: "/src/assets/review/img2.jpg",
   },
   {
     id: 3,
-    name: "satya",
+    name: "Divya",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus porro, aliquam minima maxime quis dolorum. Dolor doloribus corrupti ad cupiditate architecto perspiciatis? Labore nemo aut et consequuntur, recusandae similique! Perspiciati",
-    img: "https://picsum.photos/200/300?grayscale",
+    img: "/src/assets/review/img3.jpg",
   },
   {
     id: 4,
-    name: "kartch",
+    name: "younika",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus porro, aliquam minima maxime quis dolorum. Dolor doloribus corrupti ad cupiditate architecto perspiciatis? Labore nemo aut et consequuntur, recusandae similique! Perspiciati",
-    img: "https://picsum.photos/200/300/?blur=2",
+    img: "/src/assets/review/img4.jpg",
   },
 ];
 

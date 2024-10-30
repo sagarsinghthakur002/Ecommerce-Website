@@ -40,7 +40,7 @@ const Hero = ({ handleOrderPopup }) => {
   };
 
   return (
-    <div className='relative overflow-hidden h-[89vh] w-full bg-gray-100 flex justify-center items-center dark:bg-slate-950 dark:text-white duration-300'>
+    <div className='relative overflow-hidden h-screen w-full bg-gray-100 flex justify-center items-center dark:bg-slate-950 dark:text-white duration-300'>
       <div className='h-full w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]'></div>
       <div className='container pb-8 sm:pd-0'>
         <Slider {...settings}>
@@ -65,7 +65,7 @@ const Hero = ({ handleOrderPopup }) => {
                     {data.description}
                   </p>
                   <div
-                    data-aos="fade-up" 
+                    data-aos="zoom-out" 
                     data-aos-duration="500"
                     data-aos-delay="300"
                   >
