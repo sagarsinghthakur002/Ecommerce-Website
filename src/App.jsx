@@ -39,6 +39,7 @@ const App = () => {
         <Banner />
         <FInditem />  
         <Testimonials />
+        <Footer/>
 
       </div>
     </>

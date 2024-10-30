@@ -26,18 +26,18 @@ function TopProduct({ handleOrderpopup }) {
   return (
     <div className="container">
       <div className="text-left mg-24">
-        <p className="text-sm text-primary" data-aos="fade-up">
+        <p className="text-sm text-primary py-2" data-aos="fade-up">
           Top Rated Products for you
         </p>
-        <h1 data-aos="fade-up" className="text-3xl font-bold">Best Products</h1>
+        <h1 data-aos="fade-up" className="text-3xl font-bold text-center py-3">Best Products</h1>
         <p data-aos="fade-up" className="text-xs text-gray-400">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi alias quaerat vero veritatis consectetur qui totam fugit. Quod aspernatur, adipisci numquam neque quasi amet iusto unde, at perspiciatis dolore reprehenderit!
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 place-items-centern py-36 sm:py-20">
           {productsData.map((data) => (
             <div key={data.id} data-aos="zoom-in" className="rounded-2xl text-center bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]">
-              <div>
+              <div className='pb-'>
                 <img src={data.url} alt='image' className='max-w-[140px] block mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md'/>
               </div>
               <div className="w-full flex items-center justify-center gap-1">

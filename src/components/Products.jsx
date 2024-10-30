@@ -45,9 +45,9 @@ function Products() {
   return (
     <div className='mt-14 mb-12'>
       <div className='container'>
-        <div className='text-center mb-10 max-w-[600] mx-auto'>
-          <p data-aos="fade-up" className='text-sm text-primary'>Top Selling Products for You</p>
-          <h2 data-aos="fade-up" className='text-3xl font-bold'>Products</h2>
+        <div className=' mb-10 max-w-[600] mx-auto'>
+          <p data-aos="fade-up" className='text-sm text-primary pb-2'>Top Selling Products for You</p>
+          <h2 data-aos="fade-up" className='text-3xl font-bold pb-2 text-center'>Products</h2>
           <p data-aos="fade-up" className='text-xs text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vitae adipisci totam reiciendis, veritatis doloremque numquam illum velit autem ullam amet reprehenderit magnam, itaque temporibus nam molestias? Omnis, placeat veniam.</p>
         </div>
         <div>
