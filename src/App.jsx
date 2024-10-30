@@ -7,8 +7,8 @@ import Hero from './components/Hero';
 import Products from './components/Products';
 import TopProduct from './components/TopProduct';
 import Footer from './components/Footer';
-import FInditem from './components/FInditem';
 import Testimonials from './components/Testimonials';
+import FindItem from './components/FInditem';
 
 const App = () => {
 
@@ -37,7 +37,7 @@ const App = () => {
         <Products/>
         <TopProduct/>
         <Banner />
-        <FInditem />  
+        <FindItem />  
         <Testimonials />
         <Footer/>
 
