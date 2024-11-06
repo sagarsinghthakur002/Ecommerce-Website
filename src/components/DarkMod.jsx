@@ -18,7 +18,7 @@ function DarkMode() {
   }, [theme]); // Add Theme as a dependency to update when it changes
 
   return (
-    <div className="relative">
+    <div className="relative"> // you can add your own button 
       <img
         src="/src/assets/website/light-mode-button.png"
         alt="light"
