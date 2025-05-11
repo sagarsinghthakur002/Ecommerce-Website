@@ -32,8 +32,8 @@ const FooterLinks = [
 function Footer() {
   return (
     <div className='text-white bg-[#212529]'>
-      <div className='container'>
-        <div data-aos="zoom-in" className='grid md:grid-cols-3 pb-44 pt-5'>
+      <div className='container containers'>
+        <div data-aos="zoom-in" className='grid md:grid-cols-3  pt-5'>
           <div className='py-8 px-4'>
             <h1 className='text-2xl font-bold sm:text-left text-justify mb-3 items-center gap-1'>
               <FiShoppingBag size="30" />
@@ -56,7 +56,35 @@ function Footer() {
             </div>
           </div>
           <div>
+
+            <div className='mt-7 '>
+              <h1 className='font-bold text-xl '>Contact </h1>
+            {/* <div className='flex items-center gap-2 mt-6'>
+              
+              <a href='#'>
+                <FaInstagram className='text-3xl' />
+              </a>
+              <a href='#'>
+                <FaLinkedin className='text-3xl' />
+              </a>
+              <a href='#'>
+                <FaFacebook className='text-3xl' />
+              </a>
+            </div>  */}
+            <div className='mt-6'>
+              <div className='flex items-center gap-3'>
+                <FaMapLocation />
+                <p>Kathmandu, Nepal</p>
+              </div>
+              <div className='flex items-center gap-3 mt-3'>
+                <IoCall />
+                <p>+977 982340756</p>
+              </div>
+            </div>
+
+
             <div className='flex items-center gap-2 mt-6'>
+              
               <a href='#'>
                 <FaInstagram className='text-3xl' />
               </a>
@@ -67,22 +95,16 @@ function Footer() {
                 <FaFacebook className='text-3xl' />
               </a>
             </div> 
-            <div className='mt-6'>
-              <div className='flex items-center gap-3'>
-                <FaMapLocation />
-                <p>Kathmandu, Nepal</p>
-              </div>
-              <div className='flex items-center gap-3 mt-3'>
-                <IoCall />
-                <p>+977 982340756</p>
-              </div>
-              
+
+
+
+
+          </div>
             </div>
-            <div className='flex justify-center items-center mt-10 '>
+        </div>
+            <div className='flex justify-center items-center border-t-2 border-white '>
               <p>Copyright &copy; Sagar Singh Thakur. All Rights Reserved.</p>
             </div>
-          </div>
-        </div>
       </div>
     </div>
   );
