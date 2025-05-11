@@ -1,10 +1,12 @@
 import React from 'react';
+import img from '../assets/hero/img.png'
+
 
 const FindItem = () => {
   return (
     <div data-aos="zoom-in" className="mb-20 bg-slate-700 dark:bg-gray-800 flex flex-col sm:flex-row items-center justify-center">
       <div className="flex-shrink-0 p-5">
-        <img src="/src/assets/hero/img.png" alt="Hero" className="w-full h-auto object-cover" />
+        <img src={img} alt="Hero" className="w-full h-auto object-cover" />
       </div>
       <div className="container backdrop-blur-sm py-10 sm:py-20 px-5 sm:px-10 sm:ml-[-10px] md:ml-[-20px] lg:ml-[-40px]">
         <div className="space-y-6 max-w-xl mx-auto text-center sm:text-left">
